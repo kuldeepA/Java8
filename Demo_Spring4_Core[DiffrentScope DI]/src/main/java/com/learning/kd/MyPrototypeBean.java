@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component("prototype")
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class MyPrototypeBean {
-	//
+	
 	private String dateTimeString = LocalDateTime.now().toString();
 
     public String getDateTime() {
